@@ -11,13 +11,15 @@
   "scripts": [
     "index.js",
     "components/Require.coffee",
-    "components/Configure.coffee"
+    "components/Configure.coffee",
+    "components/BrowserifyRequire.coffee"
   ],
   "json": [
     "component.json"
   ],
   "noflo": {
     "components": {
+      "BrowserifyRequire": "components/BrowserifyRequire.coffee",
       "Configure": "components/Configure.coffee",
       "Require": "components/Require.coffee"
     }
