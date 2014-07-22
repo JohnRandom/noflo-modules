@@ -10,18 +10,18 @@
   },
   "scripts": [
     "index.js",
-    "components/Require.coffee",
     "components/Configure.coffee",
-    "components/BrowserifyRequire.coffee"
+    "components/BrowserifyRequire.coffee",
+    "components/AmdRequire.coffee"
   ],
   "json": [
     "component.json"
   ],
   "noflo": {
     "components": {
+      "AmdRequire": "components/AmdRequire.coffee",
       "BrowserifyRequire": "components/BrowserifyRequire.coffee",
-      "Configure": "components/Configure.coffee",
-      "Require": "components/Require.coffee"
+      "Configure": "components/Configure.coffee"
     }
   }
 }

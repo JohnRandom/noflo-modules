@@ -1,11 +1,11 @@
 noflo = require 'noflo'
 unless noflo.isBrowser()
   chai = require 'chai' unless chai
-  RequireModule = require '../components/Require.coffee'
+  RequireModule = require '../components/AmdRequire.coffee'
 else
-  RequireModule = require 'noflo-amd/components/Require.js'
+  RequireModule = require 'noflo-amd/components/AmdRequire.js'
 
-describe 'Require component', ->
+describe 'AmdRequire component', ->
   c = null
   path = null
   module = null
