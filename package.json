@@ -1,7 +1,7 @@
 {
-  "name": "noflo-amd",
-  "description": "Asynchronous Module Definition loader for NoFlo",
-  "version": "0.1.0",
+  "name": "noflo-modules",
+  "description": "Module loader for NoFlo",
+  "version": "0.2.0",
   "author": {
     "name": "Henri Bergius",
     "email": "henri.bergius@iki.fi",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/noflo/noflo-amd.git"
+    "url": "git://github.com/JohnRandom/noflo-modules.git"
   },
   "licenses": [
     {
